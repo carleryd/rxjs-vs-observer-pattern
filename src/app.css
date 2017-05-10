@@ -1,0 +1,98 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#description {
+  width: 80%;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;               
+  background-color: black;
+  height: 1px;
+}
+
+#program-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+
+#rxjs-container {
+  display: flex;
+  flex: 1;
+}
+
+#vanilla-js-container {
+  display: flex;
+  flex: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#program-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+}
+
+#rxjs-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+}
+#rxjs-suggestion-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+#github-user-text {
+  text-align: center;
+  margin: 3px;
+}
+#suggestions-1 {
+  text-align: center;
+  margin: 3px;
+}
+#rxjs-button-container {
+  display: flex;
+  align-items: center;
+}
+#refresh-1 {
+  display: flex;
+  flex: 1;
+  margin: 2px;
+}
+#close-1 {
+  display: flex;
+  flex: 1;
+  margin: 2px;
+}
+
+#vanilla-js-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#suggestions-js {
+  display: flex;
+  flex: 1;
+  align-self: stretch;
+}

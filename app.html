@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Title Goes Here</title>
+    <link rel="stylesheet" type="text/css" href="src/app.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="container">
+      <h2>About</h2>
+      <p id="description">
+        Here are two implementations of a program that fetches GitHub user names.
+        The first one uses a Reactive solution in RxJS,
+        The other one uses vanilla JavaScript, implementing the Observer pattern.
+      </p>
+      <hr>
+      <div id="program-container">
+        <div id="rxjs-container">
+          <h3 id="rxjs-title">RxJS</h3>
+          <div id="rxjs-suggestion-container">
+            <p id="github-user-text">Random GitHub user</p>
+            <b id="suggestions-1"></b>
+          </div>
+          <div id="rxjs-button-container">
+            <button id="refresh-1" class="btn-default">Refresh</button>
+            <button id="close-1" class="btn-default">Close</button>
+          </div>
+        </div>
+        <div id="vanilla-js-container">
+          <p id="vanilla-js-title">Vanilla JS</p>
+          <div id="suggestions-js"></div>
+          <button id="refresh-js" class="btn-default">Refresh</button>
+          <button id="close-js" class="btn-default">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./bin/app.bundle.js"></script>
+  </body>
+</html>
