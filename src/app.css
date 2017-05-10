@@ -1,4 +1,4 @@
-#container {
+#main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,24 +26,7 @@ hr {
   align-self: stretch;
 }
 
-#rxjs-container {
-  display: flex;
-  flex: 1;
-}
-
-#vanilla-js-container {
-  display: flex;
-  flex: 1;
-}
-
-#container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#program-container {
+.outer-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,48 +34,33 @@ hr {
   align-self: stretch;
 }
 
-#rxjs-container {
+.inner-container {
   display: flex;
   flex: 1;
   flex-direction: column;
   align-self: stretch;
   align-items: center;
 }
-#rxjs-suggestion-container {
+.rxjs-js-suggestion-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
   height: 100px;
 }
-#github-user-text {
+.github-user-text {
   text-align: center;
   margin: 3px;
 }
-#suggestions-1 {
+.rxjs-js-suggestions {
   text-align: center;
   margin: 3px;
 }
-#rxjs-button-container {
+.rxjs-js-button-container {
   display: flex;
   align-items: center;
 }
-#refresh-1 {
+.rxjs-js-button {
   display: flex;
   flex: 1;
   margin: 2px;
-}
-#close-1 {
-  display: flex;
-  flex: 1;
-  margin: 2px;
-}
-
-#vanilla-js-container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
-#suggestions-js {
-  display: flex;
-  flex: 1;
-  align-self: stretch;
 }
